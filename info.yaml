@@ -1,6 +1,6 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     407848880404516865       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  wokwi_id:     407852791999030273       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "Simple 8 Bit CPU"      # Project title
   author:       "Joseph Johnson"      # Your name
   discord:      "jwjbadger"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "A1"
+  ui[1]: "A2"
+  ui[2]: "A3"
+  ui[3]: "A4"
+  ui[4]: "A5"
+  ui[5]: "A6"
+  ui[6]: "A7"
+  ui[7]: "A8"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "S1"
+  uo[1]: "S2"
+  uo[2]: "S3"
+  uo[3]: "S4"
+  uo[4]: "S5"
+  uo[5]: "S6"
+  uo[6]: "S7"
+  uo[7]: "S8"
 
   # Bidirectional pins
   uio[0]: ""
