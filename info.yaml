@@ -6,7 +6,7 @@ project:
   discord:      "jwjbadger"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "a very simple CPU or ALU at least... we'll see how far this gets"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     1000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "A1"
-  ui[1]: "A2"
-  ui[2]: "A3"
-  ui[3]: "A4"
-  ui[4]: "A5"
-  ui[5]: "A6"
-  ui[6]: "A7"
-  ui[7]: "A8"
+  ui[0]: "S1"
+  ui[1]: ""
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
-  uo[0]: "S1"
-  uo[1]: "S2"
-  uo[2]: "S3"
-  uo[3]: "S4"
-  uo[4]: "S5"
-  uo[5]: "S6"
-  uo[6]: "S7"
-  uo[7]: "S8"
+  uo[0]: "OUT0"
+  uo[1]: "OUT1"
+  uo[2]: "OUT2"
+  uo[3]: "OUT3"
+  uo[4]: "OUT4"
+  uo[5]: "OUT5"
+  uo[6]: "OUT6"
+  uo[7]: "OUT7"
 
   # Bidirectional pins
   uio[0]: ""

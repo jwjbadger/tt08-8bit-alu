@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project currently works by including a 16-bit shift register connected to the first input. This is conceptually broken into two 8-bit registers that may be added together. The two numbers are then brought into a very simple ALU that may adds them using logic gates (based around a 1-bit adder with a carry pin). The final carry pin is ignored and the output is displayed.
 
 ## How to test
 
-Explain how to use your project
+Input your two numbers MSB first, pulsing the clock after inputting each individual bit. The output will be produced with OUT0 indicating the LSB and OUT7 indicating the MSB.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A sequence of 8 LEDs is hooked up to the outputs to display the final number in binary.
