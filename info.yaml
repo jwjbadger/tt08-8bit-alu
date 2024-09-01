@@ -14,13 +14,13 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "S1"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "SI"
+  ui[1]: "OS"
+  ui[2]: "DIRA"
+  ui[3]: "DIRB"
   ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
+  ui[5]: "LA"
+  ui[6]: "LB"
   ui[7]: ""
 
   # Outputs
