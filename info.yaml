@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     407852791999030273       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Simple 8 Bit CPU"      # Project title
+  title:        "Simple 8 Bit ALU"      # Project title
   author:       "Joseph Johnson"      # Your name
   discord:      "jwjbadger"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "a very simple CPU or ALU at least... we'll see how far this gets"      # One line description of what your project does
+  description:  "a very simple ALU"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,10 +15,10 @@ project:
 pinout:
   # Inputs
   ui[0]: "SI"
-  ui[1]: "OS"
+  ui[1]: "ESO"
   ui[2]: "DIRA"
   ui[3]: "DIRB"
-  ui[4]: "EO"
+  ui[4]: "EAO"
   ui[5]: "LA"
   ui[6]: "LB"
   ui[7]: "AS"

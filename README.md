@@ -1,6 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Wokwi 8-Bit CPU 
+# Tiny Tapeout Wokwi 8-Bit ALU 
+
+A simple 8-bit ALU created using Wokwi. It was a joy to create and far simpler than anything else. While originally intended to become a full-fledged CPU, after creating a 16-byte RAM module and noting the intense lag (~3 seconds to reroute a wire), I ended up settling on leaving it how it is now.
+
+Please check the documentation for more information! You can find information on the pinout and more details on the underlying methods used there.
 
 - [Read the documentation for project](docs/info.md)
 
@@ -17,12 +21,3 @@ To learn more and get started, visit https://tinytapeout.com.
 - [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
 - [Join the community](https://tinytapeout.com/discord)
 - [Build your design locally](https://docs.google.com/document/d/1aUUZ1jthRpg4QURIIyzlOaPWlmQzr-jBn3wZipVUPt4)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
