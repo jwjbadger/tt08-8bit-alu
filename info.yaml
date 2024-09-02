@@ -18,7 +18,7 @@ pinout:
   ui[1]: "OS"
   ui[2]: "DIRA"
   ui[3]: "DIRB"
-  ui[4]: ""
+  ui[4]: "EO"
   ui[5]: "LA"
   ui[6]: "LB"
   ui[7]: "AS"
