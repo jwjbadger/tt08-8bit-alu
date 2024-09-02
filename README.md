@@ -7,6 +7,7 @@ A simple 8-bit ALU created using Wokwi. It was a joy to create and far simpler t
 Please check the documentation for more information! You can find information on the pinout and more details on the underlying methods used there.
 
 - [Read the documentation for project](docs/info.md)
+- [Visit the project itself on Wokwi](https://wokwi.com/projects/407852791999030273)
 
 ## What is Tiny Tapeout?
 
