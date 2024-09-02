@@ -21,7 +21,7 @@ pinout:
   ui[4]: ""
   ui[5]: "LA"
   ui[6]: "LB"
-  ui[7]: ""
+  ui[7]: "AS"
 
   # Outputs
   uo[0]: "OUT0"
